@@ -1,3 +1,4 @@
-<h1>{{ task.title }}</h1>
+<h1 [appTaskStatus]="task.etat">{{ task.title }}</h1>
 <p>{{ task.description }}</p>
 <p>{{ task.etat }}</p>
+<p>{{ task.date }}</p>
