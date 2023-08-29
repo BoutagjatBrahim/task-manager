@@ -4,7 +4,8 @@ import { TaskListComponent } from './task-list/task-list.component';
 import { MainTaskComponent } from './main-task/main-task.component';
 
 const routes: Routes = [
-  { path: 'tasks', component: MainTaskComponent}
+  { path: 'tasks', loadChildren: () => import('src/app/tasks/tasks.module').then(m => m.TasksModule) },
+  {path: '', redirectTo: '/displays', pathMatch : 'full'}
 ];
 
 @NgModule({
