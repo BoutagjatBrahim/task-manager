@@ -17,5 +17,5 @@ Installer yarn : npm install --global yarn
 Installer Compodoc :  npm install -g @compodoc/compodoc
     version : 1.1.21
 
-lien vers le dépot git : https://github.com/BoutagjatBrahim/task-manager.git 
+lien vers le dépot git : https://github.com/BoutagjatBrahim/task-manager.git
 Bonjour Mr, j'ai eu une erreur au niveau des observable qui m'a empecher d'avacer la suite du TP. Merci 
