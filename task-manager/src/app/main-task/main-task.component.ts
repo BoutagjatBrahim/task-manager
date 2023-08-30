@@ -24,5 +24,5 @@ export class MainTaskComponent implements OnInit {
     this.tasks = this.crudTaskService.getTasks();
     this.archivedTasks = this.crudTaskService.getTasksByStatus(TaskState.Termine); // Remplit les tâches terminées
   }
-}
+  }
 
